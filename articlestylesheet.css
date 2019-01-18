@@ -58,104 +58,30 @@
   color: black;
   font-family: arial; }
 
-.imageset img {
-  width: 370px;
-  height: 270px;
-  vertical-align: middle; }
-
-.imageset figcaption {
-  width: 370px;
-  height: 50px;
-  padding: 10px 0px 10px 0px;
-  background-color: black;
-  color: white;
-  font-family: arial;
-  font-size: 1.1em; }
-
-.figureset1 {
-  width: 100%;
-  height: auto; }
-
-.row1 {
-  width: 85%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-content: center; }
+.articlecontent {
+  float: left;
+  width: 70%;
+  font-family: arial; }
 
 .banner2 {
   float: right;
-  width: 14%;
-  margin: 15px 0px 0px 5px;
-  align-content: right; }
-
-.section2 h1 {
-  float: left;
-  width: 82%;
-  padding: 1px 1px 1px 4px;
-  background-color: #DDDDDD;
-  color: black;
-  font-family: arial; }
-
-.row2 {
-  width: 85%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center; }
-
-.imageset2 img {
-  width: 575px;
-  height: 450px;
-  vertical-align: middle;
-  margin: 10px 0px 0px 0px; }
-
-.imageset2 figcaption {
-  width: 575px;
-  height: 50px;
-  padding: 10px 0px 10px 0px;
-  background-color: black;
-  color: white;
-  font-family: arial;
-  font-size: 1.5em; }
-
-.banner3 {
-  float: left;
-  width: 100%;
-  padding: 40px 0px 40px 0px; }
-
-.banner3 img {
-  display: block;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto; }
+  width: 10%;
+  margin-right: 40px; }
 
 .banner4 {
   float: right;
-  width: 5%;
-  margin: 25px 140px 0px 0px;
-  align-content: left; }
-
-.row3 {
-  width: 85%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center; }
+  width: 10%;
+  margin-right: 10px; }
 
 .contentspacer {
   width: 100%;
-  padding: 40px; }
+  padding-top: 100px; }
 
 /* Maincontent Section ENDS ----*/
 /* Footer Section Begins ---*/
 .footer {
+  float: left;
+  width: 100%;
   background-color: black; }
 
 .navbarbottom {
@@ -185,4 +111,4 @@
   font-family: arial;
   color: white; }
 
-/*# sourceMappingURL=stylesheet.css.map */
+/*# sourceMappingURL=articlestylesheet.css.map */
