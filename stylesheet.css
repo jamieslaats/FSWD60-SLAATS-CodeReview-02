@@ -33,6 +33,10 @@
   padding: 7.5px 15px 7.5px 15px;
   text-decoration: none; }
 
+.navbar a:hover {
+  background-color: #dddd;
+  color: black; }
+
 .maincontent {
   margin: 0 auto;
   width: 95%; }
@@ -49,5 +53,61 @@
   color: black;
   font-family: arial;
   border: 1px solid black; }
+
+.sidbar1 {
+  float: right;
+  width: 20%; }
+
+.imageset1 {
+  width: 80%;
+  height: 80%; }
+
+.row1 {
+  display: flex;
+  flex-wrap: flex;
+  padding: 40px; }
+
+.row2 {
+  display: flex;
+  flex-wrap: flex; }
+
+.section2 h1 {
+  float: left;
+  width: 70%;
+  padding: 1px 1px 1px 4px;
+  background-color: #DDDDDD;
+  color: black;
+  font-family: arial;
+  border: 1px solid black; }
+
+.footer {
+  background-color: black;
+  border: 1px solid white; }
+
+.navbarbottom {
+  display: flex;
+  width: 100%;
+  flex-flow: row;
+  font-family: arial;
+  padding: 5px;
+  font-size: 0.95em; }
+
+.navbarbottom a {
+  color: white;
+  padding: 7.5px 15px 7.5px 15px;
+  text-decoration: none; }
+
+.navbarbottom a:hover {
+  background-color: #dddd;
+  color: black; }
+
+.footerlogo {
+  border: 1px solid white; }
+
+.copyright {
+  border: 1px solid white;
+  color: white;
+  font-family: arial;
+  text-align: center; }
 
 /*# sourceMappingURL=stylesheet.css.map */
