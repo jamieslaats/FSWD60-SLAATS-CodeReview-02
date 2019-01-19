@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html = lang='en'>
+<html lang='en'>
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>NEWSPAPER CF</title>
-	<link rel="stylesheet" href="articlestylesheet.css">
+	<link rel="stylesheet" href="basisstylesheet.css">
+	<link rel="stylesheet" href="articlecontentstylesheet.css">
 </head>
 <body>
+	<!--Start of entire container for all content-->
 	<div class="container">
-		<!--This is the Header Section with Logo, Advert and Navi -->
+		
+	
+		<!--Start of Header Section with logo, banner 1 and navi -->
 		<header id="header" class="headersection">
 			<div class="logo"	id="logo">
 				<img src="img/logo-newspaper-cf.png" alt="NewspaperCFLogo" width="300px">
@@ -18,64 +22,73 @@
 				<a href="https://www.codefactory.wien"><img src="img/banner-1.png" alt="Banner1" width="525px"></a>
 			</div>
 		</header>
-		<nav class="navigationtop" id="navtop"> <!--Navigation Section -->
+		<nav class="navigationtop" id="navtop">
 			<div class="navbar">
-				<a href="index.html" title="home">Home</a>
+				<a href="#home" title="home">Home</a>
 				<a href="#tech" title="tech">Tech</a>
 				<a href="#tech" title="tech">Culture</a>
 				<a href="#tech" title="tech">Video</a>
 			</div>
 		</nav>
-		<!--This is the Main Content Section -->
+		<!--End of Header Section with logo, banner 1 and navi -->
+		<!--Start of the Complete Main Content Section -->
 		<main class="maincontent" id="maincontentsection">
-			<div class="todaysdate">
-				<p id="activedate">Todays Date</p>
-			</div>
-			<div class="section1" id="sectionone"> <!--Section Divider Top News-->
-				<h1>EU approves controversial Copyright Directive, including internet "link tax"!</h1>
-			</div>
-			<div class="maincontent1"> <!--Maincontent of the website-->
-				<div class="Secondlineheader">
-					<h2>Those in favor say they’re fighting for content creators, but critics say the new laws will be ‘catastrophic’</h2>
+				 <!--Maincontent of the website-->
+				<div class="todaysdate">
+					<p id="activedate">Todays Date</p>
 				</div>
-				<div class="articlecontent">
-					<p>The European Parliament has voted in favor of the Copyright Directive, a controversial piece of legislation intended to update online copyright laws for the internet age.</p>
+				
+				<div class="row1" id="rowone">
+				<!--This is the section of the first flexcontainer-->
+					<div class="banneraddleft">
+						<div class="banner2" id="bannertwo"> <!--Right Sidebar first Image-->
+							<a href="https://www.codefactory.wien"><img src="img/banner-2.png" alt="Banner2" width="235px"></a>
+						</div>
+					</div>
+					<div class="articlesection">
+						<div class="section1" id="sectionone"> <!--Section Divider Top News-->
+							<h1>EU approves controversial Copyright Directive, including internet "link tax"!</h1>
+						</div>
+						<div class="section2">
+							<h2>Those in favor say they’re fighting for content creators, but critics say the new laws will be ‘catastrophic’</h2>
+						</div>
+						<div id="articlecontent">
+							<p>The European Parliament has voted in favor of the Copyright Directive, a controversial piece of legislation intended to update online copyright laws for the internet age.</p>
 					
-					<p>The directive was originally rejected by MEPs in July following criticism of two key provisions: Articles 11 and 13, dubbed the “link tax” and “upload filter” by critics. However, in parliament this morning, an updated version of the directive was approved, along with amended versions of Articles 11 and 13. The final vote was 438 in favor and 226 against.
-					"The fight is far from finished"</p>
+							<p>The directive was originally rejected by MEPs in July following criticism of two key provisions: Articles 11 and 13, dubbed the “link tax” and “upload filter” by critics. However, in parliament this morning, an updated version of the directive was approved, along with amended versions of Articles 11 and 13. The final vote was 438 in favor and 226 against.
+							"The fight is far from finished"</p>
 					
-					<p>The fallout from this decision will be far-reaching, and take a long time to settle. The directive itself still faces a final vote in January 2019 (although experts say it’s unlikely it will be rejected). After that it will need to be implemented by individual EU member states, who could very well vary significantly in how they choose to interpret the directive’s text.</p>
+							<p>The fallout from this decision will be far-reaching, and take a long time to settle. The directive itself still faces a final vote in January 2019 (although experts say it’s unlikely it will be rejected). After that it will need to be implemented by individual EU member states, who could very well vary significantly in how they choose to interpret the directive’s text.</p>
 
-					<p>The most important parts of this are Articles 11 and 13. Article 11 is intended to give publishers and papers a way to make money when companies like Google link to their stories, allowing them to demand paid licenses. Article 13 requires certain platforms like YouTube and Facebook stop users sharing unlicensed copyrighted material.</p>
+							<p>The most important parts of this are Articles 11 and 13. Article 11 is intended to give publishers and papers a way to make money when companies like Google link to their stories, allowing them to demand paid licenses. Article 13 requires certain platforms like YouTube and Facebook stop users sharing unlicensed copyrighted material.</p>
 
-    					<p>Plenary adopts it’s negotiating position on copyright rules for the digital single market. Negotiations with Council will begin soon. pic.twitter.com/hJOhClrZyf
-   	 					— JURI Committee Press (@EP_Legal) September 12, 2018</p>
+    						<p>Plenary adopts it’s negotiating position on copyright rules for the digital single market. Negotiations with Council will begin soon. pic.twitter.com/hJOhClrZyf
+   	 						— JURI Committee Press (@EP_Legal) September 12, 2018</p>
 
-					<p>Critics of the Copyright Directive say these provisions are disastrous. In the case of Article 11, they note that attempts to “tax” platforms like Google News for sharing articles have repeatedly failed, and that the system would be ripe to abuse by copyright trolls.</p>
+							<p>Critics of the Copyright Directive say these provisions are disastrous. In the case of Article 11, they note that attempts to “tax” platforms like Google News for sharing articles have repeatedly failed, and that the system would be ripe to abuse by copyright trolls.</p>
 
-					<p>Article 13, they say, is even worse. The legislation requires that platforms proactively work with rightsholders to stop users uploading copyrighted content. The only way to do so would be to scan all data being uploaded to sites like YouTube and Facebook. This would create an incredible burden for small platforms, and could be used as a mechanism for widespread censorship. This is why figures like Wikipedia founder Jimmy Wales and World Wide Web inventor Tim Berners-Lee came out so strongly against the directive.</p>
-					<p>"The Copyright Directive is set to reshape the internet globally"</p>
+							<p>Article 13, they say, is even worse. The legislation requires that platforms proactively work with rightsholders to stop users uploading copyrighted content. The only way to do so would be to scan all data being uploaded to sites like YouTube and Facebook. This would create an incredible burden for small platforms, and could be used as a mechanism for widespread censorship. This is why figures like Wikipedia founder Jimmy Wales and World Wide Web inventor Tim Berners-Lee came out so strongly against the directive.</p>
+							<p>"The Copyright Directive is set to reshape the internet globally"</p>
 
-					<p>However, those backing these provisions say the arguments above are the result of scaremongering by big US tech companies, eager to keep control of the web’s biggest platforms. They point to existing laws and amendments to the directive as proof it won’t be abused in this way. These include exemptions for sites like GitHub and Wikipedia from Article 13, and exceptions to the “link tax” that allow for the sharing of mere hyperlinks and “individual words” describing articles without constraint.</p>
+							<p>However, those backing these provisions say the arguments above are the result of scaremongering by big US tech companies, eager to keep control of the web’s biggest platforms. They point to existing laws and amendments to the directive as proof it won’t be abused in this way. These include exemptions for sites like GitHub and Wikipedia from Article 13, and exceptions to the “link tax” that allow for the sharing of mere hyperlinks and “individual words” describing articles without constraint.</p>
 
-					<p>In remarks following the vote in Parliament this morning, MEP Axel Voss, who has led the charge on Articles 11 and 13, thanked his fellow politicians “for the job we have done together.” “This is a good sign for the creative industries in Europe,” said Voss. Opposing MEPs like Julia Reda of the Pirate Party described the outcome as “catastrophic.”</p>
+							<p>In remarks following the vote in Parliament this morning, MEP Axel Voss, who has led the charge on Articles 11 and 13, thanked his fellow politicians “for the job we have done together.” “This is a good sign for the creative industries in Europe,” said Voss. Opposing MEPs like Julia Reda of the Pirate Party described the outcome as “catastrophic.”</p>
 
-					<p>Despite these disagreements, what’s clear is that if the Copyright Directive receives final approval by the European Parliament in January, it will have a huge, disruptive impact on the internet, both in the European Union and around the world. Exactly how the legislation will be interpreted will be up to individual nations, but the shift in the balance of power is clear: the web’s biggest tech companies are losing their grip on the internet.</p>
+							<p>Despite these disagreements, what’s clear is that if the Copyright Directive receives final approval by the European Parliament in January, it will have a huge, disruptive impact on the internet, both in the European Union and around the world. Exactly how the legislation will be interpreted will be up to individual nations, but the shift in the balance of power is clear: the web’s biggest tech companies are losing their grip on the internet.</p>
+						</div>
+					</div> 
+					<div class="banneraddright">
+						<div class="banner4" id="bannerfour">
+							<a href="https://www.codefactory.wien"><img src="img/banner-4.png" alt="Banner4" width="240px"></a>
+						</div>
+					</div>
 				</div>
-				<div class="banner2" id="bannertwo"> <!--Right Sidebar first Image-->
-					<a href="https://www.codefactory.wien"><img src="img/banner-2.png" alt="Banner2" width="204px"></a>
-				</div>
-				<div class="banner4" id="bannerfour"> <!--Right Sidebar Second Image-->
-					<a href="https://www.codefactory.wien"><img src="img/banner-4.png" alt="Banner4" width="150px"></a>
-				</div>
-			</div>
-
-		</main>
+		<main>
 		<!--End of Main Section -->
 		<div class="contentspacer"></div>
 		<footer class="footer">
 			<div class="navbarbottom">
-					<a href="#index.html" title="home">Home</a>
+					<a href="#home" title="home">Home</a>
 					<a href="#tech" title="tech">Tech</a>
 					<a href="#tech" title="tech">Culture</a>
 					<a href="#tech" title="tech">Video</a>
@@ -95,10 +108,8 @@
 				var year = currentDate.getFullYear();
 				var activedate = ("Today is: " + day + "." + month + "." + year);
 				document.getElementById("activedate").innerHTML=activedate;
-
-				console.log("Hello from the Console!")
+				console.log("Hello from the Console! :-)")
 		</script>
 	</div>
-
 </body>
 </html>

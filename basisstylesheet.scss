@@ -2,7 +2,17 @@
 .container {
 	margin: 0 auto;
 	width: 90%;
+	box-sizing: border-box;
 }
+@media screen and (max-width: 767px) {
+	.container {
+		width: 100%;
+		padding: 0 10px;
+	}
+}
+
+
+
 /*--- Start of Header Section includes .headersection, .logo, .banner1 ---*/
 .headersection {
 	float: left;
