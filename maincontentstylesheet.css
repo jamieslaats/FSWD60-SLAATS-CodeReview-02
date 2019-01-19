@@ -1,0 +1,112 @@
+/*--- MAINCONTENT SECTION STYLESHEET ---*/
+.maincontent {
+  margin: 0 auto;
+  width: 100%; }
+
+.todaysdate {
+  width: 100%;
+  vertical-align: middle;
+  text-align: right;
+  font-family: arial; }
+
+.section1 h1 {
+  float: left;
+  width: 100%;
+  padding: 0px 1px 1px 4px;
+  background-color: #DDDDDD;
+  color: black;
+  font-family: arial; }
+
+.imageset img {
+  width: 400px;
+  height: 300px;
+  vertical-align: middle; }
+
+.imageset figcaption {
+  width: 400px;
+  height: 50px;
+  padding: 10px 0px 10px 0px;
+  background-color: black;
+  color: white;
+  font-family: arial;
+  font-size: 1.1em; }
+
+.row1 {
+  display: flex;
+  width: 100%;
+  flex-direction: row; }
+
+.flexcontainer1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: flex-start;
+  border: 1px solid black; }
+
+.section2 {
+  width: 97%; }
+
+.section2 h1 {
+  float: left;
+  width: 98%;
+  padding: 1px 1px 1px 4px;
+  background-color: #DDDDDD;
+  color: black;
+  font-family: arial;
+  border: 1px solid black; }
+
+.flexcontainer2 {
+  margin-top: 15px 0px 15px 0px;
+  padding-top: 15px;
+  border: 1px solid black; }
+
+.banner3 {
+  float: left;
+  width: 100%;
+  padding: 40px 0px 40px 0px; }
+
+.banner3 img {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.imageset2 img {
+  width: 625px;
+  height: 500px;
+  vertical-align: middle;
+  margin: 10px 0px 0px 0px; }
+
+.imageset2 figcaption {
+  width: 625px;
+  height: 50px;
+  padding: 10px 0px 10px 0px;
+  background-color: black;
+  color: white;
+  font-family: arial;
+  font-size: 1.5em; }
+
+.row2 {
+  display: flex;
+  width: 100%;
+  flex-direction: row; }
+
+.flexcontainer3 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: flex-start;
+  border: 1px solid black; }
+
+.flexcontainer4 {
+  margin-top: 15px 0px 15px 0px;
+  padding-top: 17px;
+  border: 1px solid black; }
+
+/*# sourceMappingURL=maincontentstylesheet.css.map */

@@ -1,0 +1,90 @@
+/* Stylesheet for Basis of the Website: Header, navi, footer */
+.container {
+	margin: 0 auto;
+	width: 90%;
+}
+/*--- Start of Header Section includes .headersection, .logo, .banner1 ---*/
+.headersection {
+	float: left;
+	width: 100%;
+	background-color: #5B191A;
+}
+.logo img {
+	float: left;
+	width: 23%;
+	margin: 10px 0px 10px 10px;
+	padding: 35px 0px 35px 20px;
+}
+
+.banner1 img {
+	float: right;
+	width: 45%;
+	margin: 10px 50px 10px 10px;
+	padding: 24px 50px 24px 0px;
+}
+/*--- Start of Navbar Section includes .navbar, .navbar a, .navbar a:hover ---*/
+.navbar {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	background-color: black;
+	font-family: arial;
+	font-size: 1.25em;
+	
+}
+.navbar a {
+	color: white;
+	padding: 7.5px 15px 7.5px 15px;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	background-color: #dddd;
+	color: black;
+}
+/*--- End of Header, Navi and Banner1 Section ---*/
+
+/*--- Content Spacer at bottom of page --- */
+.contentspacer {
+	width: 100%;
+	padding: 40px;
+}
+
+
+/*--- Footer Section Begins ---*/
+.footer {
+	background-color: black;
+}
+
+.navbarbottom {
+	display: flex;
+	width: 100%;
+	flex-flow: row;
+	font-family: arial;
+	padding: 5px;
+	font-size: 1em;
+	
+}
+.navbarbottom a {
+	color: white;
+	padding: 7.5px 15px 7.5px 15px;
+	text-decoration: none;
+}
+
+.navbarbottom a:hover {
+	background-color: #dddd;
+	color: black;
+}
+
+.footerlogo img {
+	display: block;
+	margin-left: auto;
+	margin-right: 20px;
+}
+.copyright {
+	text-align: center;
+	font-family: arial;
+	color: white;
+}
+
+/*---Footer Section Ends--*/
